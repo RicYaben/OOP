@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class W5P7 {
+
     public static void main(String[]arg){
         Scanner scanner = new Scanner(System.in);
 

@@ -15,7 +15,6 @@ public class W4P1 {
             i = i/10;
             c = c + b;
         }
-
         System.out.println(c);
     }
 }
