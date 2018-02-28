@@ -1,5 +1,31 @@
 import java.util.Scanner;
 
+/**
+ *
+ * Week 2 – Problem 4
+ * Create a calculator. You should write two Java classes Calculator.java and CalculatorTest.java (You should upload both classes).
+ *   • The first class should implement different methods that simulate the features of a calculator.
+ *   • The second class should first instantiate a Calculator object. Then, it should read 10 commands from the input and for each command should call the corresponding method of the Calculator object.
+ *   • The format of the commands is OP n1 if the operation is unary or OP n1 n2 if the operation is binary. The operation is given as a string, while the type of the operands depends on the operation (read below).
+ *   • Floating point numbers should be printed with three digits after the decimal point.
+ * The commands that should be supported are the following:
+ *   • DIV_I n1 n2
+ *       o Calculate the division of two integers n1 and n2
+ *   • PROD_L n1 n2
+ *       o Calculate the product of two long n1 and n2
+ *   • SUM_D n1 n2
+ *       o Calculate the sum of two double n1 and n2
+ *   • DEC_TO_BIN n1
+ *       o Convert the number n1 to unsigned binary representation. o 0<=n1<16
+ *       o If n1 is not in the given interval print ERROR
+ *   • NEGn1
+ *       o Read an integer. If the number is positive make it negative, and
+ *         vice-versa.
+ *   • POW_I n1 n2
+ *       o Calculate n1 to the power of n2. n1 and n2 are integers: 0 <= n1 <= 10 and 0 <= n2 <= 10.
+ *       o If n1 or n2 is not in the given interval print ERROR
+ */
+
 class Calculator {
 
     public void DIV_I(int a, int b) {
