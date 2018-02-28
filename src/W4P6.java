@@ -10,14 +10,14 @@ public class W4P6 {
     public static void main(String[]arg){
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine().toLowerCase();
-        StringBuilder stringbuidler = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
         for(int x = 0; x < string.length(); x++) {
             if (Character.isLetterOrDigit(string.charAt(x))) {
-                stringbuidler.append(string.charAt(x));
+                stringBuilder.append(string.charAt(x));
             }
         }
-        string = stringbuidler.toString();
+        string = stringBuilder.toString();
 
         int x = 0;
         int i = string.length() -1;
