@@ -10,6 +10,7 @@ import java.util.Scanner;
  *  “brute-force” computing.
  *  The triples should be printed in increasing order. See the template in the next page for help.
  */
+
 public class W5P3 {
     public static void main(String[]arg){
         Scanner scanner = new Scanner(System.in);
