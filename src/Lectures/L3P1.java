@@ -1,4 +1,4 @@
-package LECTURES;
+package Lectures;
 
 import java.util.Scanner;
 

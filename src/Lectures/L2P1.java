@@ -1,3 +1,4 @@
+package Lectures;
 import java.util.Scanner;
 
 public class L2P1 {
