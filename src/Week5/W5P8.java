@@ -29,12 +29,8 @@ public class W5P8 {
 
             //Check only the numbers between 0 and 100 and put a String in the ArrayList.
             if (integer >= 0 && integer <= 100) if (integer >= 60) {
-                if ((assignment1.equals("y") || assignment2.equals("y"))) {
-                    if (assignment3.equals("y")) {
+                if ((assignment1.equals("y") || assignment2.equals("y")) && assignment3.equals("y")) {
                         stringsKey.add(index, string + " is eligible to attend the exam.");
-                    } else {
-                        stringsKey.add(index, string + " is not eligible to attend the exam.");
-                    }
                 } else {
                     stringsKey.add(index, string + " is not eligible to attend the exam.");
                 }
