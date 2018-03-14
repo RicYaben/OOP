@@ -1,5 +1,7 @@
 package Week5;
 
+import java.util.Scanner;
+
 /**
  * Week 5 – Problem 10
  *
@@ -10,8 +12,6 @@ package Week5;
  *
  * Do not use arrays to solve this problem!
  */
-
-import java.util.Scanner;
 
 public class W5P10 {
     public static void main(String[]arg){
