@@ -35,8 +35,8 @@ public class W5P10 {
             sum += temporal;
         }
 
-        maxSum = sum -smaller;
-        minSum = sum -bigger;
+        maxSum = sum - smaller;
+        minSum = sum - bigger;
 
         System.out.printf("Min: %d%nMax: %d", minSum, maxSum);
     }
