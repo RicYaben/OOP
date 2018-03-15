@@ -24,9 +24,8 @@ public class W6P1 {
                 array[row][column] = scanner.nextDouble();
             }
         }
-        for(int x = 0; x < array.length; x++){
+        for(int x = 0; x < array.length; x++) {
             sum += array[x][x];
-
         }
         System.out.printf("%.2f", sum);
     }
