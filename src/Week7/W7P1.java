@@ -25,6 +25,7 @@ public class W7P1 {
             }
         }
         for(int j = 0; j< students; j++){
+
             if(student[j] >= max-10){
                 System.out.println(" Student " + (j+1) + " score is " +student[j] + " and grade is A");
             }else if(student[j] >= max-20){
